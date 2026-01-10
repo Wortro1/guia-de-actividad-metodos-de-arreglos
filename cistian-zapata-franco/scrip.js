@@ -116,3 +116,11 @@ let orden = [1, 2, 3, 4, 5];
 orden.reverse();
 console.log(orden); 
 
+/*Ejercicio 8: Búsqueda de Valor (Declarativo)
+Partiendo de const invitados = ["Juan", "Maria", "Pedro", "Luisa"];:
+1. Use find para retornar el nombre "Pedro" si existe en la lista.
+2. Commit: "Ejercicio 8 completado". */
+const invitados = ["Juan", "Maria", "Pedro", "Luisa"];
+const encontrado = invitados.find(nombre => nombre === "Pedro");
+console.log(encontrado);
+ 
