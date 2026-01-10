@@ -91,3 +91,15 @@ Partiendo de const inventario = [5, 12, 8, 130, 44];:
 const inventario = [5, 12, 8, 130, 44];
 const grandesValores = inventario.filter(num => num > 10);
 console.log(grandesValores);
+
+/*Ejercicio 5: Acumulación de Datos (Inmutable)
+Partiendo de const ventas = [100, 250, 150, 400];:
+1. Obtenga el total de ventas usando el método reduce.
+2. Commit: "Ejercicio 5 completado".*/
+const ventas = [100, 250, 150, 400];
+const totalVentas = ventas.reduce((acum, curr) => acum + curr, 0);
+console.log(totalVentas);   
+
+
+
+
