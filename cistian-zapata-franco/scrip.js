@@ -100,6 +100,12 @@ const ventas = [100, 250, 150, 400];
 const totalVentas = ventas.reduce((acum, curr) => acum + curr, 0);
 console.log(totalVentas);   
 
-
+/*Ejercicio 6: Ordenamiento Alfabético (Mutable)
+Partiendo de let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];:
+1. Ordene el arreglo alfabéticamente usando sort.
+2. Commit: "Ejercicio 6 completado" .*/
+let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
+nombres.sort();
+console.log(nombres);
 
 
