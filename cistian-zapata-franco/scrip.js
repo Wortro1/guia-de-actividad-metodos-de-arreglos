@@ -108,4 +108,11 @@ let nombres = ["Zulma", "Andrés", "Bernardo", "Carlos"];
 nombres.sort();
 console.log(nombres);
 
+/*Ejercicio 7: Inversión de Datos (Mutable)
+Partiendo de let orden = [1, 2, 3, 4, 5];:
+1. Invierta la posición de los elementos usando reverse.
+2. Commit: "Ejercicio 7 completado" .*/
+let orden = [1, 2, 3, 4, 5];
+orden.reverse();
+console.log(orden); 
 
