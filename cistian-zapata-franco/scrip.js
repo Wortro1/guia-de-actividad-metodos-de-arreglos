@@ -66,3 +66,12 @@ herramientas.push("Taladro");
 herramientas.unshift("Sierra");
 herramientas.pop();
 console.log(herramientas);
+
+/*Ejercicio 2: Modificación de Índice (Mutable)
+Partiendo de let colores = ["Rojo", "Verde", "Azul", "Amarillo"];:
+1. Use splice para insertar "Naranja" en la posición 1 y reemplazar "Azul" por "Morado".
+2. Commit: "Ejercicio 2 completado".*/
+let colores = ["Rojo", "Verde", "Azul", "Amarillo"];
+colores.splice(1, 0, "Naranja");
+colores.splice(3, 1, "Morado");
+console.log(colores);
