@@ -75,3 +75,11 @@ let colores = ["Rojo", "Verde", "Azul", "Amarillo"];
 colores.splice(1, 0, "Naranja");
 colores.splice(3, 1, "Morado");
 console.log(colores);
+
+/* Ejercicio 3: Transformación Declarativa (Inmutable)
+Partiendo de const temperaturas = [15, 20, 25, 30];:
+1. Cree un arreglo fahrenheit usando map con la fórmula (C * 9/5) + 32.
+2. Commit: "Ejercicio 3 completado". */
+const temperaturas = [15, 20, 25, 30];
+const fahrenheit = temperaturas.map(c => (c * 9/5) + 32);
+console.log(fahrenheit);  
