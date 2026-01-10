@@ -124,3 +124,10 @@ const invitados = ["Juan", "Maria", "Pedro", "Luisa"];
 const encontrado = invitados.find(nombre => nombre === "Pedro");
 console.log(encontrado);
  
+/*Ejercicio 9: Localización de Índice (Declarativo)
+Partiendo de const precios = [45, 12, 89, 34];:
+1. Use findIndex para encontrar la posición del valor 89.
+2. Commit: "Ejercicio 9 completado". */
+const precios = [45, 12, 89, 34];
+const indice = precios.findIndex(precio => precio === 89);
+console.log(indice);
