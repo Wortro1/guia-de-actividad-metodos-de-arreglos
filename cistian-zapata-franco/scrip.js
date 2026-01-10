@@ -83,3 +83,11 @@ Partiendo de const temperaturas = [15, 20, 25, 30];:
 const temperaturas = [15, 20, 25, 30];
 const fahrenheit = temperaturas.map(c => (c * 9/5) + 32);
 console.log(fahrenheit);  
+
+/*Ejercicio 4: Filtrado Selectivo (Inmutable)
+Partiendo de const inventario = [5, 12, 8, 130, 44];:
+1. Cree un arreglo grandesValores con los números mayores a 10 usando filter.
+2. Commit: "Ejercicio 4 completado".*/
+const inventario = [5, 12, 8, 130, 44];
+const grandesValores = inventario.filter(num => num > 10);
+console.log(grandesValores);
