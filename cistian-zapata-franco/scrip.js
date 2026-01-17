@@ -166,6 +166,12 @@ const filaB = ["B1", "B2"];
 const todasLasFilas = filaA.concat(filaB);
 console.log(todasLasFilas);
 
-
+/* Ejercicio 14: Formateo de String (Inmutable)
+Partiendo de const palabras = ["Hola", "mundo", "JavaScript"];:
+1. Convierta el arreglo en una sola cadena de texto separada por espacios usando join.
+2. Commit: "Ejercicio 14 completado" .*/
+const palabras = ["Hola", "mundo", "JavaScript"];
+const frase = palabras.join(" ");
+console.log(frase);
 
 
