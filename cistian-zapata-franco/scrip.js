@@ -157,5 +157,15 @@ const puntajes = [5, 8, 12, 3];
 const algunoMayor = puntajes.some(puntaje => puntaje > 10);
 console.log(algunoMayor);
 
+/*Ejercicio 13: Concatenación (Inmutable)
+Partiendo de const filaA = ["A1", "A2"]; y const filaB = ["B1", "B2"];:
+1. Una ambos arreglos en uno solo llamado todasLasFilas usando concat.
+2. Commit: "Ejercicio 13 completado". */
+const filaA = ["A1", "A2"];
+const filaB = ["B1", "B2"];
+const todasLasFilas = filaA.concat(filaB);
+console.log(todasLasFilas);
+
+
 
 
