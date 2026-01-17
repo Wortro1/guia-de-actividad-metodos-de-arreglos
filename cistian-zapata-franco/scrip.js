@@ -131,3 +131,15 @@ Partiendo de const precios = [45, 12, 89, 34];:
 const precios = [45, 12, 89, 34];
 const indice = precios.findIndex(precio => precio === 89);
 console.log(indice);
+
+/* jercicio 10: Comprobación de Existencia (Inmutable)
+Partiendo de const cursos = ["Git", "React", "Node"];:
+1. Use includes para verificar si "JavaScript" se encuentra en el listado.
+2. Commit: "Ejercicio 10 completado".
+*/
+const cursos = ["Git", "React", "Node"];
+const existe = cursos.includes("JavaScript");
+console.log(existe);
+
+
+
