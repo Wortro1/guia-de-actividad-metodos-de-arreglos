@@ -141,5 +141,14 @@ const cursos = ["Git", "React", "Node"];
 const existe = cursos.includes("JavaScript");
 console.log(existe);
 
+/* Ejercicio 11: Validación Total (Declarativo)
+Partiendo de const edades = [20, 25, 19, 30];:
+1. Verifique si todos los elementos son mayores o iguales a 18 usando every.
+2. Commit: "Ejercicio 11 completado". */
+const edades = [20, 25, 19, 30];
+const todosMayores = edades.every(edad => edad >= 18);
+console.log(todosMayores);
+
+
 
 
