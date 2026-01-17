@@ -174,4 +174,10 @@ const palabras = ["Hola", "mundo", "JavaScript"];
 const frase = palabras.join(" ");
 console.log(frase);
 
-
+/* Ejercicio 15: Extracción de Rango (Inmutable)
+Partiendo de const base = ["Elemento0", "Elemento1", "Elemento2", "Elemento3"];:
+1. Cree un subarreglo con los elementos en las posiciones 1 y 2 usando slice.
+2. Commit: "Ejercicio 15 completado". */
+const base = ["Elemento0", "Elemento1", "Elemento2", "Elemento3"];
+const subarreglo = base.slice(1, 3);
+console.log(subarreglo);
