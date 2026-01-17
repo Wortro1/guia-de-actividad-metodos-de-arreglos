@@ -149,6 +149,13 @@ const edades = [20, 25, 19, 30];
 const todosMayores = edades.every(edad => edad >= 18);
 console.log(todosMayores);
 
+/*Ejercicio 12: Validación Parcial (Declarativo)
+Partiendo de const puntajes = [5, 8, 12, 3];:
+1. Verifique si al menos uno de los puntajes es mayor a 10 usando some.
+2. Commit: "Ejercicio 12 completado".   */
+const puntajes = [5, 8, 12, 3];
+const algunoMayor = puntajes.some(puntaje => puntaje > 10);
+console.log(algunoMayor);
 
 
 
